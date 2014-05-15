@@ -4,7 +4,7 @@
 	<groupId>com.ryantenney.passkit4j</groupId>
 	<artifactId>passkit4j</artifactId>
 	<packaging>jar</packaging>
-	<version>2.0.1-SNAPSHOT</version>
+	<version>2.0.1.bramp-SNAPSHOT</version>
 	<url>https://github.com/ryantenney/passkit4j</url>
 	<name>Passkit4j</name>
 	<description>Passbook Library for Java</description>
@@ -23,9 +23,9 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:git://github.com/ryantenney/passkit4j.git</connection>
-		<developerConnection>scm:git:git@github.com:ryantenney/passkit4j.git</developerConnection>
-		<url>https://github.com/ryantenney/passkit4j</url>
+		<connection>scm:git:git://github.com/bramp/passkit4j.git</connection>
+		<developerConnection>scm:git:git@github.com:bramp/passkit4j.git</developerConnection>
+		<url>https://github.com/bramp/passkit4j</url>
 	  <tag>HEAD</tag>
   </scm>
 
@@ -34,6 +34,12 @@
 		<url>https://github.com/ryantenney/passkit4j/issues</url>
 	</issueManagement>
 
+    <distributionManagement>
+        <repository>
+            <id>soundbite-maven</id>
+            <url>https://maven.dev.soundbite.com/content/repositories/soundbite-maven/</url>
+        </repository>
+    </distributionManagement>
 
 	<developers>
 		<developer>
